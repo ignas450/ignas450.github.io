@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My File Storage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #bbb;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            background: #1e1e1e;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+        }
+        .file-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .file-link {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+        .file-link:hover {
+            text-decoration: underline;
+        }
+        .file-size {
+            font-size: 0.9em;
+            color: #a5a5a5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Storage</h1>
+        <p>Files bigger than 100 MB will be downloaded from Google Drive</p>
+        <p>Some archives might have a password. The password is 1234</p>
+    </header>
+    <section id="files">
+        <h2>Root</h2>
+        <ul class="file-list">
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/7Zip-24.08.exe" class="file-link" download>7Zip-24.08.exe</a>
+                </div>
+                <span class="file-size">1.55 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/ActivationScript.zip" class="file-link" download>ActivationScript.zip</a>
+                </div>
+                <span class="file-size">645 Bytes</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="https://drive.usercontent.google.com/download?id=1em210HigoWs9MqYi3gLLATYw0yINy1Mz&export=download&authuser=0" class="file-link" target="_blank">Aida64.zip</a>
+                </div>
+                <span class="file-size">129 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/Autoruns.zip" class="file-link" download>Autoruns.zip</a>
+                </div>
+                <span class="file-size">2.79 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/Autoruns64.exe" class="file-link" download>Autoruns64.exe</a>
+                </div>
+                <span class="file-size">1.86 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/DiscordRamLimiter.exe" class="file-link" download>DiscordRamLimiter.exe</a>
+                </div>
+                <span class="file-size">120 KB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.msi.png" alt="" class="file-icon">
+                    <a href="files/FDM-Portable.zip" class="file-link" download>FDM-Portable.zip</a>
+                </div>
+                <span class="file-size">57.8 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/FirefoxSetup.exe" class="file-link" download>FirefoxSetup.exe</a>
+                </div>
+                <span class="file-size">364 KB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/Microsoft-365-English.zip" class="file-link" download>Microsoft-365-English.zip</a>
+                </div>
+                <span class="file-size">7.20 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/Microsoft-365-Lithuanian.zip" class="file-link" download>Microsoft-365-Lithuanian.zip</a>
+                </div>
+                <span class="file-size">7.21 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/MicrosoftStoreInstaller.zip" class="file-link" download>MicrosoftStoreInstaller.zip</a>
+                </div>
+                <span class="file-size">71.6 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/ProcessExplorer.zip" class="file-link" download>ProcessExplorer.zip</a>
+                </div>
+                <span class="file-size">3.30 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.archive.png" alt="" class="file-icon">
+                    <a href="files/ProcessMonitor.zip" class="file-link" download>ProcessMonitor.zip</a>
+                </div>
+                <span class="file-size">2.87 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/RamCleaner.exe" class="file-link" download>RamCleaner.exe</a>
+                </div>
+                <span class="file-size">252 KB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.application.png" alt="" class="file-icon">
+                    <a href="files/UninstallToolSetup.exe" class="file-link" download>UninstallToolSetup.exe</a>
+                </div>
+                <span class="file-size">5.51 MB</span>
+            </li>
+
+            <li>
+                <div class="file-item">
+                    <img src="icons/file.text.png" alt="" class="file-icon">
+                    <a href="files/VMware Workstation Download Link.txt" class="file-link" download>VMware Workstation Download Link.txt</a>
+                </div>
+                <span class="file-size">69 bytes</span>
+            </li>
+
+
+        </ul>
+    </section>
+</div>
+</body>
+</html>
