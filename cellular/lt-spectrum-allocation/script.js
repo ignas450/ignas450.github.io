@@ -79,18 +79,19 @@
             details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>11.6 MHz (925.1 - 936.7 MHz downlink and 880.1 - 891.7 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>3G: UARFCN 2938<br><br>
                       <strong>Details:</strong><br>Currently used for 3G and 2G GSM. 3G is in process of being phased out. Testing 5 MHz B8 LTE in Palanga and Sventoji.` },
           { type: 'telia', label: 'Telia', width: 11.6,
             details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>11.6 MHz (936.7 - 948.3 MHz downlink and 891.7 - 903.3 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 3617<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>LTE: EARFCN 3617<br><br>
                       <strong>Details:</strong><br>10 MHz allocated for LTE, with the remaining 1.6 MHz used for 2G GSM` },
           { type: 'tele2', label: 'Tele2', width: 11.6,
             details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>11.6 MHz (948.3 - 959.9 MHz downlink and 903.3 - 914.9 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 3774<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>LTE: EARFCN 3774<br><br>
                       <strong>Details:</strong><br>5 MHz allocated for LTE; the remaining spectrum is used for 2G GSM` },
           { type: 'unallocated', label: 'Unallocated', width: 0.1,
             details: `<strong>Bandwidth:</strong><br>0.1 MHz (959.9 - 960 MHz downlink and 914.9 - 915 MHz uplink)` }
@@ -172,7 +173,8 @@
           { type: 'tele2', label: 'Tele2', width: 100,
             details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>100 MHz (3400 - 3500 MHz)<br><br>
-                      <strong>Valid until:</strong><br>2042-09-26` },
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>5G: NRARFCN 630000` },
           { type: 'telia', label: 'Telia', width: 100,
             details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>100 MHz (3500 - 3600 MHz)<br><br>
