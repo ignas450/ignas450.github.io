@@ -14,17 +14,21 @@ const iconMapping = {
   exe: 'icons/exe.png',
   txt: 'icons/txt.png',
   iso: 'icons/iso.png'
+  jar: 'icons/jar.png'
 };
 
 const gdriveFilesByFolder = {
   'software/files': [
-    { name: 'aida64.zip', url: 'https://drive.google.com/uc?export=download&id=1pYWP45nYWKS9N6E_dvcy9aeZgVc-CdYM', size: 135386952 },
-    { name: 'LegacyLauncher (Minecraft).zip', url: 'https://drive.google.com/uc?export=download&id=1d7U4r73WzjslUgPPY2GBb0-e98leYJGD', size: 127263036 },
+    { name: 'aida64.zip', url: 'https://drive.google.com/uc?export=download&id=1_RxCNMnJd3Lm8zk6_6AT_IB-MsfgsmMe', size: 135328285 },
+    { name: 'LegacyLauncherWindows.exe', url: 'https://drive.google.com/uc?export=download&id=18iN2Igbm9DLv491SR5jOh65CWclNkBRa', size: 117560495 },
     { name: 'VMware-Workstation-17.6.2.exe', url: 'https://drive.google.com/uc?export=download&id=1Oe_HsQXHoOM4z6VAsEkNMWOqPQos56Q4', size: 257359088 }
   ],
   'software/files/VMware Tools': [
     { name: 'Vista Updates for VMware Tools.iso', url: 'https://drive.google.com/uc?export=download&id=1Y3ypNwxNQNBojlge5YraMyQBseBjGrbg', size: 273698816 },
     { name: 'VMware Tools for Vista.iso', url: 'https://drive.google.com/uc?export=download&id=1oSKEINZEEKb30yZWUSLJLamKjgO_UjkU', size: 143421440 },
+    { name: 'VMware-tools-13.0.0-24696409-x64.exe', url: 'https://drive.google.com/uc?export=download&id=11mJg0rAdr9zk6Trc6Qsc3SRstuYW6nuU', size: 110778184 },
+    { name: 'VMware-tools-windows-13.0.0-24696409.iso', url: 'https://drive.google.com/uc?export=download&id=1Fph7GVvFm3yYYmMGl-ThUlrh9NrSFQyr', size: 112410624 },
+    { name: 'VMware-tools-windows-arm-13.0.0-24696409.iso', url: 'https://drive.google.com/uc?export=download&id=15pXplnsSVitqizw33mi5NLQn5RVL3iR3', size: 156319744 },
     { name: 'Windows 7 Updates for VMware Tools.iso', url: 'https://drive.google.com/uc?export=download&id=1IKxU3qoTUhNNpilSEANqyMLrkwS6Jdhv', size: 645791744 }
   ]
 };
