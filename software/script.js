@@ -13,7 +13,7 @@ const iconMapping = {
   zip: 'icons/archive.png',
   exe: 'icons/exe.png',
   txt: 'icons/txt.png',
-  iso: 'icons/iso.png'
+  iso: 'icons/iso.png',
   jar: 'icons/jar.png'
 };
 
