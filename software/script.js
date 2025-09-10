@@ -11,19 +11,21 @@ const iconMapping = {
   folder: 'icons/folder.png',
   default: 'icons/file.png',
   zip: 'icons/archive.png',
+  '7z': 'icons/archive.png',
   exe: 'icons/exe.png',
   txt: 'icons/txt.png',
   iso: 'icons/iso.png',
-  jar: 'icons/jar.png'
+  jar: 'icons/jar.png',
+  apk: 'icons/apk.png',
 };
 
 const gdriveFilesByFolder = {
-  'software/files': [
+  'files': [
     { name: 'aida64.zip', url: 'https://drive.google.com/uc?export=download&id=1_RxCNMnJd3Lm8zk6_6AT_IB-MsfgsmMe', size: 135328285 },
     { name: 'LegacyLauncherWindows.exe', url: 'https://drive.google.com/uc?export=download&id=18iN2Igbm9DLv491SR5jOh65CWclNkBRa', size: 117560495 },
     { name: 'VMware-Workstation-17.6.2.exe', url: 'https://drive.google.com/uc?export=download&id=1Oe_HsQXHoOM4z6VAsEkNMWOqPQos56Q4', size: 257359088 }
   ],
-  'software/files/VMware Tools': [
+  'files/VMware Tools': [
     { name: 'Vista Updates for VMware Tools.iso', url: 'https://drive.google.com/uc?export=download&id=1Y3ypNwxNQNBojlge5YraMyQBseBjGrbg', size: 273698816 },
     { name: 'VMware Tools for Vista.iso', url: 'https://drive.google.com/uc?export=download&id=1oSKEINZEEKb30yZWUSLJLamKjgO_UjkU', size: 143421440 },
     { name: 'VMware-tools-13.0.0-24696409-x64.exe', url: 'https://drive.google.com/uc?export=download&id=11mJg0rAdr9zk6Trc6Qsc3SRstuYW6nuU', size: 110778184 },
@@ -33,7 +35,7 @@ const gdriveFilesByFolder = {
   ]
 };
 
-async function loadFiles(path = 'software/files') {
+async function loadFiles(path = 'files') {
   const ul = document.getElementById('fileList');
   ul.innerHTML = '';
 
@@ -50,7 +52,7 @@ async function loadFiles(path = 'software/files') {
 
   let githubItems = [];
   try {
-    const apiURL = `https://api.github.com/repos/ignas450/ignas450.github.io/contents/${path}`;
+    const apiURL = `https://api.github.com/repos/ignas450/SoftwareRepository/contents/${path}`;
     const res = await fetch(apiURL);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     githubItems = await res.json();
@@ -113,10 +115,10 @@ async function loadFiles(path = 'software/files') {
 function renderBreadcrumb(path) {
   const container = document.getElementById('currentPathDisplay') || createBreadcrumbContainer();
   container.innerHTML = '';
-  const segments = path.replace('software/files', '').split('/').filter(Boolean);
-  let fullPath = 'software/files';
+  const segments = path.replace('files', '').split('/').filter(Boolean);
+  let fullPath = 'files';
 
-  const homeSpan = createBreadcrumbSpan('🏠', () => loadFiles('software/files'));
+  const homeSpan = createBreadcrumbSpan('🏠', () => loadFiles('files'));
   container.appendChild(homeSpan);
 
   segments.forEach(segment => {
@@ -144,7 +146,7 @@ function createBreadcrumbContainer() {
 function renderBackButton(path) {
   const existing = document.getElementById('backButton');
   if (existing) existing.remove();
-  if (path === 'software/files') return;
+  if (path === 'files') return;
 
   const backBtn = document.createElement('div');
   backBtn.id = 'backButton';
@@ -154,7 +156,7 @@ function renderBackButton(path) {
     <span class="file-link">Parent directory/</span>
   `;
 
-  const parent = path.split('/').slice(0, -1).join('/') || 'software/files';
+  const parent = path.split('/').slice(0, -1).join('/') || 'files';
   backBtn.addEventListener('click', () => loadFiles(parent));
 
   document.getElementById('fileList').parentNode.insertBefore(backBtn, document.getElementById('fileList'));

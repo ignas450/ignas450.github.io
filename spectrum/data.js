@@ -1,0 +1,194 @@
+export const spectrumData = [
+      {
+        id: 'B1', title: 'Band B1, n1 (FDD)', freqStart: '2110 / 1920 MHz', freqEnd: '2170 / 1980 MHz', blocks: [
+          { type: 'bite', label: 'Bite', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2110 - 2130 MHz downlink and 1920 - 1940 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2026-02-28<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 100` },
+          { type: 'telia', label: 'Telia', width: 20,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2130 - 2150 MHz downlink and 1940 - 1960 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2026-02-23<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 300` },
+          { type: 'tele2', label: 'Tele2', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2150 - 2170 MHz downlink and 1960 - 1980 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2026-03-06<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 500<br>5G: NRARFCN 432030<br><br>
+                      <strong>Details:</strong><br>Some places have LTE/5G DSS but mostly LTE only` }
+        ]
+      }, 
+
+      {
+        id: 'B3', title: 'Band B3 (FDD)', freqStart: '1805 / 1710 MHz', freqEnd: '1880 / 1785 MHz', blocks: [
+          { type: 'telia', label: 'Telia', width: 25,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>25 MHz (1805 - 1830 MHz downlink and 1710 - 1735 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1348<br><br>
+                      <strong>Details:</strong><br>20 MHz used for LTE. 5 MHz seems to be unused` },
+          { type: 'tele2', label: 'Tele2', width: 25,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>25 MHz (1830 - 1855 MHz downlink and 1735 - 1760 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1574<br><br>
+                      <strong>Details:</strong><br>20 MHz used for LTE. 5 MHz seems to be unused` },
+          { type: 'bite', label: 'Bite', width: 25,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>25 MHz (1855 - 1880 MHz downlink and 1760 - 1785 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1850, 1733<br><br>
+                      <strong>Details:</strong><br>20+5 MHz split as separate carriers` }
+        ]
+      },
+
+      {
+        id: 'B7', title: 'Band B7 (FDD)', freqStart: '2620 / 2500 MHz', freqEnd: '2690 / 2570 MHz', blocks: [
+          { type: 'tele2', label: 'Tele2', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2620 - 2640 MHz downlink and 2500 - 2520 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2027-08-29<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 2850` },
+          { type: 'telia', label: 'Telia', width: 20,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2640 - 2660 MHz downlink and 2520 - 2540 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2027-08-29<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 3050` },
+          { type: 'bite', label: 'Bite', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (2660 - 2680 MHz downlink and 2540 - 2560 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2027-08-29<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 3250<br><br>
+                      <strong>Details:</strong><br>20+10 MHz split as separate carriers.` },
+          { type: 'bite', label: 'Bite', width: 10,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (2680 - 2690 MHz downlink and 2560 - 2570 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2030-01-15<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 3394<br><br>
+                      <strong>Details:</strong><br>20+10 MHz split as separate carriers.<br>This block was previously allocated to Mezon but is now owned and operated by Bite` }
+        ]
+      },
+
+      {
+        id: 'B8', title: 'Band B8 (FDD)', freqStart: '925 / 880 MHz', freqEnd: '960 / 915 MHz', blocks: [
+          { type: 'unallocated', label: 'Unallocated', width: 0.1,
+            details: `<strong>Bandwidth:</strong><br>0.1 MHz (925 - 925.1 MHz downlink and 880 - 880.1 MHz uplink)` },
+          { type: 'bite', label: 'Bite', width: 11.6,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>11.6 MHz (925.1 - 936.7 MHz downlink and 880.1 - 891.7 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>3G: UARFCN 2938<br>LTE: EARFCN 3476<br><br>
+                      <strong>Details:</strong><br>Currently used for 3G and 2G GSM. 3G is being phased out and is expected to be shut down by 2026. Testing 5 MHz B8 LTE in Palanga and Sventoji` },
+          { type: 'telia', label: 'Telia', width: 11.6,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>11.6 MHz (936.7 - 948.3 MHz downlink and 891.7 - 903.3 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>LTE: EARFCN 3617<br><br>
+                      <strong>Details:</strong><br>10 MHz allocated for LTE, with the remaining 1.6 MHz used for 2G GSM` },
+          { type: 'tele2', label: 'Tele2', width: 11.6,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>11.6 MHz (948.3 - 959.9 MHz downlink and 903.3 - 914.9 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>2G GSM<br>LTE: EARFCN 3774<br><br>
+                      <strong>Details:</strong><br>5 MHz allocated for LTE` },
+          { type: 'unallocated', label: 'Unallocated', width: 0.1,
+            details: `<strong>Bandwidth:</strong><br>0.1 MHz (959.9 - 960 MHz downlink and 914.9 - 915 MHz uplink)` }
+        ]
+      },
+
+      {
+        id: 'B20', title: 'Band B20 (FDD)', freqStart: '791 / 832 MHz', freqEnd: '821 / 862 MHz', blocks: [
+          { type: 'bite', label: 'Bite', width: 10,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (791 - 801 MHz downlink and 832 - 842 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2030-07-01<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 6200` },
+          { type: 'telia', label: 'Telia', width: 10,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (801 - 811 MHz downlink and 842 - 852 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2030-07-01<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 6300` },
+          { type: 'tele2', label: 'Tele2', width: 10,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (811 - 821 MHz downlink and 852 - 862 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2030-07-01<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 6400` }
+        ]
+      },
+
+      {
+        id: 'B28', title: 'Bands B28, n28 (FDD)', freqStart: '758 / 703 MHz', freqEnd: '788 / 733 MHz', blocks: [
+
+          { type: 'unallocated', label: 'Unallocated', width: 10,
+            details: `<strong>Bandwidth:</strong><br>10 MHz (758 - 768 MHz downlink and 703 - 713 MHz uplink)<br><br>
+              <strong>Details:</strong><br>Should get auctioned soon` },
+          { type: 'telia', label: 'Telia', width: 10,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (768 - 778 MHz downlink and 713 - 723 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 9360<br>5G: NRARFCN 154570<br><br>
+                      <strong>Details:</strong><br>Previously used for LTE/5G DSS but seems like its about to be used for 5G only` },
+          { type: 'bite', label: 'Bite', width: 5,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (778 - 783 MHz downlink and 723 - 728 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2042-10-11<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 9435` },
+          { type: 'tele2', label: 'Tele2', width: 5,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>10 MHz (783 - 788 MHz downlink and 728 - 733 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 9485` }
+        ]
+      },
+
+      {
+        id: 'B38', title: 'Band B38 (TDD)', freqStart: '2570 MHz', freqEnd: '2620 MHz', blocks: [
+          { type: 'bite', label: 'Bite', width: 50,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>50 MHz (2570 - 2620 MHz)<br><br>
+                      <strong>Valid until:</strong><br>2030-01-15<br><br>
+                      <strong>Details:</strong><br>Unused<br>This block was previously allocated to Mezon but is now owned and operated by Bite` },
+        ]
+      },
+
+      {
+        id: 'B40', title: 'Band B40, n40 (TDD)', freqStart: '2300 MHz', freqEnd: '2400 MHz', blocks: [
+          { type: 'unallocated', label: 'Unallocated', width: 10,
+            details: `<strong>Bandwidth:</strong><br>10 MHz (2300 - 2310 MHz)` },
+          { type: 'bite', label: 'Bite', width: 80,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>80 MHz (2310 - 2390 MHz)<br><br>
+                      <strong>Valid until:</strong><br>2029-07-25<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 38850<br>5G: NRARFCN 468250<br><br>
+                      <strong>Details:</strong><br>60 MHz is being used for 5G and 20 MHz for LTE<br>This block was previously allocated to Mezon but is now owned and operated by Bite` },
+          { type: 'unallocated', label: 'Unallocated', width: 10,
+            details: `<strong>Bandwidth:</strong><br>10 MHz (2390 - 2400 MHz)` }
+        ]
+      },
+
+      {
+        id: 'B78', title: 'Band n78 (TDD)', freqStart: '3400 MHz', freqEnd: '3800 MHz', blocks: [
+          { type: 'tele2', label: 'Tele2', width: 100,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>100 MHz (3400 - 3500 MHz)<br><br>
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>5G: NRARFCN 630000` },
+          { type: 'telia', label: 'Telia', width: 100,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>100 MHz (3500 - 3600 MHz)<br><br>
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>5G: NRARFCN 634080` },
+          { type: 'bite', label: 'Bite', width: 100,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>100 MHz (3600 - 3700 MHz)<br><br>
+                      <strong>Valid until:</strong><br>2042-09-26<br><br>
+                      <strong>Used for:</strong><br>5G: NRARFCN 640704<br><br>
+                      <strong>Details:</strong><br>Used but rarely` },
+          { type: 'unallocated', label: 'Ministry of Defence', width: 100,  
+            details: `<strong>Operated by:</strong><br>Ministry of National Defence of Lithuania<br><br>
+                      <strong>Bandwidth:</strong><br>100 MHz (3700 - 3800 MHz)<br><br>
+                      <strong>Details:</strong><br>Not used for cellular` }
+        ]
+      },
+]; 
