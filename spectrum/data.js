@@ -22,23 +22,47 @@ export const spectrumData = [
 
       {
         id: 'B3', title: 'Band B3 (FDD)', freqStart: '1805 / 1710 MHz', freqEnd: '1880 / 1785 MHz', blocks: [
-          { type: 'telia', label: 'Telia', width: 25,
+          { type: 'telia', label: 'Telia', width: 4.8,
             details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>25 MHz (1805 - 1830 MHz downlink and 1710 - 1735 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>4.8 MHz (1805 - 1809.8 MHz downlink and 1710 - 1714.8 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 1348<br><br>
-                      <strong>Details:</strong><br>20 MHz used for LTE. 5 MHz seems to be unused` },
-          { type: 'tele2', label: 'Tele2', width: 25,
+                      <strong>Details:</strong><br>Unused spectrum` },
+          { type: 'telia', label: 'Telia', width: 20,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1809.8 - 1829.8 MHz downlink and 1714.8 - 1734.8 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1348` },
+          { type: 'telia', label: 'Telia', width: 0.2,
+            details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>0.2 MHz (1829.8 - 1830 MHz downlink and 1734.8 - 1735 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Details:</strong><br>Unused spectrum` },
+          { type: 'tele2', label: 'Tele2', width: 2.5,
             details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>25 MHz (1830 - 1855 MHz downlink and 1735 - 1760 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>2.5 MHz (1830 - 1832.4 MHz downlink and 1735 - 1747.4 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 1574<br><br>
-                      <strong>Details:</strong><br>20 MHz used for LTE. 5 MHz seems to be unused` },
-          { type: 'bite', label: 'Bite', width: 25,
+                      <strong>Details:</strong><br>Unused spectrum` },
+          { type: 'tele2', label: 'Tele2', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1832.4 - 1852.4 MHz downlink and 1747.4 - 1747.4 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1574` },
+          { type: 'tele2', label: 'Tele2', width: 2.5,
+            details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>2.5 MHz (1852.4 - 1855 MHz downlink and 1747.4 - 1760 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Details:</strong><br>Unused spectrum` },
+          { type: 'bite', label: 'Bite', width: 5,
             details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>25MHz (1855 - 1880 MHz downlink and 1760 - 1785 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>5 MHz (1855 - 1860 MHz downlink and 1760 - 1765 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 1850, 1733<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1733<br><br>
+                      <strong>Details:</strong><br>20+5 MHz split as separate carriers` },
+          { type: 'bite', label: 'Bite', width: 20,
+            details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1860 - 1880 MHz downlink and 1765 - 1785 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>2032-10-31<br><br>
+                      <strong>Used for:</strong><br>LTE: EARFCN 1850<br><br>
                       <strong>Details:</strong><br>20+5 MHz split as separate carriers` }
         ]
       },
