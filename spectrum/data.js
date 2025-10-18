@@ -127,7 +127,7 @@ export const spectrumData = [
 
           { type: 'unallocated', label: 'Unallocated', width: 10,
             details: `<strong>Bandwidth:</strong><br>10 MHz (758 - 768 MHz downlink and 703 - 713 MHz uplink)<br><br>
-              <strong>Details:</strong><br>Should get auctioned soon` },
+              <strong>Details:</strong><br>Getting auctioned right now` },
           { type: 'telia', label: 'Telia', width: 10,
             details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>10 MHz (768 - 778 MHz downlink and 713 - 723 MHz uplink)<br><br>
@@ -146,6 +146,20 @@ export const spectrumData = [
                       <strong>Used for:</strong><br>LTE: EARFCN 9485` }
         ]
       },
+
+      {
+        id: 'B32', title: 'Bands B32 (SDL)', freqStart: '1432 MHz', freqEnd: '1512 MHz', blocks: [
+
+          { type: 'unallocated', label: 'Ongoing Auction', width: 20,
+            details: `<strong>Bandwidth:</strong><br>20 MHz (1432 - 1452 MHz)` },
+          { type: 'unallocated', label: 'Ongoing Auction', width: 20,
+            details: `<strong>Bandwidth:</strong><br>20 MHz (1452 - 1472 MHz)` },
+          { type: 'unallocated', label: 'Unallocated', width: 20,
+            details: `<strong>Bandwidth:</strong><br>20 MHz (1472 - 1492 MHz)` },
+          { type: 'unallocated', label: 'Ongoing Auction', width: 20,
+            details: `<strong>Bandwidth:</strong><br>20 MHz (1492 - 1512 MHz)` }
+        ]
+      },  
 
       {
         id: 'B38', title: 'Band B38 (TDD)', freqStart: '2570 MHz', freqEnd: '2620 MHz', blocks: [
