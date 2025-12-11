@@ -6,7 +6,7 @@ spectrumData.forEach(band => {
   const section = document.createElement('section');
   section.id = `band${band.id}`;
   section.innerHTML = `<h2>${band.title}</h2>`;
-
+  
   const chart = document.createElement('div');
   chart.className = 'chart';
   chart.dataset.band = band.id;
@@ -56,3 +56,4 @@ container.addEventListener('click', e => {
   det.innerHTML = blk.dataset.details;
   det.classList.add('visible');
 });
+
