@@ -272,7 +272,7 @@ export const spectrumData = [
         label: "Unallocated",
         width: 10,
         details: `<strong>Bandwidth:</strong><br>10 MHz (758 - 768 MHz downlink and 703 - 713 MHz uplink)<br><br>
-              <strong>Details:</strong><br>Should be auctioned soon`
+              <strong>Details:</strong><br>Ongoing Auction`
       },
       {
         type: "telia",
@@ -397,25 +397,25 @@ export const spectrumData = [
         width: 10,
         details: `<strong>Bandwidth:</strong><br>10 MHz (2300 - 2310 MHz)`
       },
+      // {
+      //   type: "bite",
+      //   label: "Bite",
+      //   width: 20,
+      //   details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+      //                 <strong>Bandwidth:</strong><br>20 MHz (2310 - 2330 MHz)<br><br>
+      //                 <strong>Valid until:</strong><br>2029-07-25<br><br>
+      //                 <strong>Used for:</strong><br>LTE: EARFCN 38850<br><br>
+      //                 <strong>Details:</strong><br>Spectrum block acquired after the acquisition of Mezon`
+      // },
       {
         type: "bite",
         label: "Bite",
-        width: 20,
+        width: 80,
         details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>20 MHz (2310 - 2330 MHz)<br><br>
+                      <strong>Bandwidth:</strong><br>80 MHz (2310 - 2390 MHz)<br><br>
                       <strong>Valid until:</strong><br>2029-07-25<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 38850<br><br>
-                      <strong>Details:</strong><br>Spectrum block acquired after the acquisition of Mezon`
-      },
-      {
-        type: "bite",
-        label: "Bite",
-        width: 60,
-        details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>60 MHz (2330 - 2390 MHz)<br><br>
-                      <strong>Valid until:</strong><br>2029-07-25<br><br>
-                      <strong>Used for:</strong><br>5G: NRARFCN 468250<br><br>
-                      <strong>Details:</strong><br>Spectrum block acquired after the acquisition of Mezon`
+                      <strong>Used for:</strong><br>5G: NRARFCN 464210<br><br>
+                      <strong>Details:</strong><br>Previously used for 20 MHz LTE (EARFCN 38850) and 60 MHz 5G NR (ARFCN 468250)<br>Reframed to 80 MHz 5G during 2026 Q2<br>Spectrum block acquired after the acquisition of Mezon`
       },
       {
         type: "unallocated",
