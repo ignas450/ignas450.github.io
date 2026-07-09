@@ -73,9 +73,9 @@ export const spectrumData = [
       {
         type: "tele2",
         label: "Tele2",
-        width: 2.5,
+        width: 2.4,
         details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>2.5 MHz (1830 - 1832.4 MHz downlink and 1735 - 1747.4 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>2.4 MHz (1830 - 1832.4 MHz downlink and 1735 - 1737.4 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
                       <strong>Details:</strong><br>sometimes used for 2G<br><br>
                       <strong>Used for:</strong><br>2G GSM: ARFCN 640, 643`
@@ -85,16 +85,16 @@ export const spectrumData = [
         label: "Tele2",
         width: 20,
         details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>20 MHz (1832.4 - 1852.4 MHz downlink and 1747.4 - 1747.4 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1832.4 - 1852.4 MHz downlink and 1737.4 - 1757.4 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
                       <strong>Used for:</strong><br>LTE: EARFCN 1574`
       },
       {
         type: "tele2",
         label: "Tele2",
-        width: 2.5,
+        width: 2.6,
         details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>2.5 MHz (1852.4 - 1855 MHz downlink and 1747.4 - 1760 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>2.5 MHz (1852.4 - 1855 MHz downlink and 1757.4 - 1760 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
                       <strong>Details:</strong><br>sometimes used for 2G<br><br>
                       <strong>Used for:</strong><br>2G GSM: ARFCN 750, 751, 752, 753, 755`
