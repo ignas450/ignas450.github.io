@@ -94,7 +94,7 @@ export const spectrumData = [
         label: "Tele2",
         width: 2.6,
         details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
-                      <strong>Bandwidth:</strong><br>2.5 MHz (1852.4 - 1855 MHz downlink and 1757.4 - 1760 MHz uplink)<br><br>
+                      <strong>Bandwidth:</strong><br>2.6 MHz (1852.4 - 1855 MHz downlink and 1757.4 - 1760 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>2032-10-31<br><br>
                       <strong>Details:</strong><br>sometimes used for 2G<br><br>
                       <strong>Used for:</strong><br>2G GSM: ARFCN 750, 751, 752, 753, 755`
