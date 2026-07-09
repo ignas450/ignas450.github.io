@@ -11,7 +11,7 @@ export const spectrumData = [
         width: 20,
         details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>20 MHz (2110 - 2130 MHz downlink and 1920 - 1940 MHz uplink)<br><br>
-                      <strong>Valid until:</strong><br>2026-02-28<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
                       <strong>Used for:</strong><br>LTE: EARFCN 100`
       },
       {
@@ -20,7 +20,7 @@ export const spectrumData = [
         width: 20,
         details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>20 MHz (2130 - 2150 MHz downlink and 1940 - 1960 MHz uplink)<br><br>
-                      <strong>Valid until:</strong><br>2026-02-23<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
                       <strong>Used for:</strong><br>LTE: EARFCN 300`
       },
       {
@@ -29,7 +29,7 @@ export const spectrumData = [
         width: 20,
         details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>20 MHz (2150 - 2170 MHz downlink and 1960 - 1980 MHz uplink)<br><br>
-                      <strong>Valid until:</strong><br>2026-03-06<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
                       <strong>Used for:</strong><br>LTE: EARFCN 500<br>5G: NRARFCN 432030<br><br>
                       <strong>Details:</strong><br>Some sites run LTE/5G DSS`
       }
@@ -267,12 +267,24 @@ export const spectrumData = [
     freqStart: "758 / 703 MHz",
     freqEnd: "788 / 733 MHz",
     blocks: [
+
       {
-        type: "unallocated",
-        label: "Unallocated",
-        width: 10,
-        details: `<strong>Bandwidth:</strong><br>10 MHz (758 - 768 MHz downlink and 703 - 713 MHz uplink)<br><br>
-              <strong>Details:</strong><br>Ongoing Auction`
+        type: "tele2",
+        label: "Tele2",
+        width: 5,
+        details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>5 MHz (758 - 763 MHz downlink and 703 - 708 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
+                      <strong>Used for:</strong><br>?`
+      },
+      {
+        type: "bite",
+        label: "Bite",
+        width: 5,
+        details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>5 MHz (763 - 768 MHz downlink and 708 - 713 MHz uplink)<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
+                      <strong>Used for:</strong><br>?`
       },
       {
         type: "telia",
@@ -312,16 +324,22 @@ export const spectrumData = [
     freqEnd: "1512 MHz",
     blocks: [
       {
-        type: "unallocated",
-        label: "Ongoing Auction",
+        type: "telia",
+        label: "Telia",
         width: 20,
-        details: `<strong>Bandwidth:</strong><br>20 MHz (1432 - 1452 MHz)`
+        details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1432 - 1452 MHz)<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
+                      <strong>Used for:</strong><br>?`
       },
       {
-        type: "unallocated",
-        label: "Ongoing Auction",
+        type: "telia",
+        label: "Telia",
         width: 20,
-        details: `<strong>Bandwidth:</strong><br>20 MHz (1452 - 1472 MHz)`
+        details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1452 - 1472 MHz)<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
+                      <strong>Used for:</strong><br>?`
       },
       {
         type: "unallocated",
@@ -330,10 +348,13 @@ export const spectrumData = [
         details: `<strong>Bandwidth:</strong><br>20 MHz (1472 - 1492 MHz)`
       },
       {
-        type: "unallocated",
-        label: "Ongoing Auction",
+        type: "tele2",
+        label: "Tele2",
         width: 20,
-        details: `<strong>Bandwidth:</strong><br>20 MHz (1492 - 1512 MHz)`
+        details: `<strong>Operated by:</strong><br>UAB Tele2 Lietuva<br><br>
+                      <strong>Bandwidth:</strong><br>20 MHz (1492 - 1512 MHz)<br><br>
+                      <strong>Valid until:</strong><br>?<br><br>
+                      <strong>Used for:</strong><br>?`
       }
     ]
   },
