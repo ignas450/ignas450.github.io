@@ -12,8 +12,7 @@ export const spectrumData = [
         details: `<strong>Operated by:</strong><br>UAB Bite Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>20 MHz (2110 - 2130 MHz downlink and 1920 - 1940 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>?<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 100<br>5G: NRARFCN 427250<br><br>
-                      <strong>Details:</strong><br>Some sites run pure 5G`
+                      <strong>Used for:</strong><br>LTE: EARFCN 100`
       },
       {
         type: "telia",
@@ -22,7 +21,8 @@ export const spectrumData = [
         details: `<strong>Operated by:</strong><br>AB Telia Lietuva<br><br>
                       <strong>Bandwidth:</strong><br>20 MHz (2130 - 2150 MHz downlink and 1940 - 1960 MHz uplink)<br><br>
                       <strong>Valid until:</strong><br>?<br><br>
-                      <strong>Used for:</strong><br>LTE: EARFCN 300`
+                      <strong>Used for:</strong><br>LTE: EARFCN 300<br>5G: NRARFCN 427250<br><br>
+                      <strong>Details:</strong><br>Some sites run pure 5G`
       },
       {
         type: "tele2",
